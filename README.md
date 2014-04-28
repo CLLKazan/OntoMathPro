@@ -1,5 +1,5 @@
-OntoMathPro Ontology: A Hub for Math LOD
-========================================
+OntoMathPro: A Hub for Math LOD
+===============================
 
 The OntoMathPro ontology has been developed by the [research group](https://github.com/CLLKazan) from Kazan Federal University (Russia). The ontology geared to be the hub for math knowledge in the Web of Data. We shared the sources with the Semantic Web community to engage our colleagues from elsewhere in its further development.
 
