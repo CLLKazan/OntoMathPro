@@ -19372,7 +19372,6 @@ Class: mathematics:E1471
         rdfs:label "преобразование симметрии"@ru
     
     SubClassOf: 
-        mathematics:E1472,
         mathematics:E1324
     
     
