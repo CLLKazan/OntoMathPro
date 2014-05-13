@@ -772,7 +772,7 @@ Class: mathematics:E2171
         rdfs:label "группа подстановок"@ru
     
     SubClassOf: 
-        mathematics:E2172
+        mathematics:E2145
     
     
 Class: mathematics:E2174
