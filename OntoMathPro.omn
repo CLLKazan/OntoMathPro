@@ -17,18 +17,18 @@ Ontology: <http://cll.niimm.ksu.ru/ontologies/mathematics#>
 
 
 Annotations: 
-    dc:contributor "Anna Kayumova <annakayu@gmail.com>"^^xsd:string,
-    dc:contributor "Valery Solovyev <maki.solovyev@mail.ru>"^^xsd:string,
+    dc:creator "Anna Kayumova <annakayu@gmail.com>"^^xsd:string,
+    dc:creator "Valery Solovyev <maki.solovyev@mail.ru>"^^xsd:string,
     dc:creator "Alik Kirillovich <alik.kirillovich@gmail.com>"^^xsd:string,
     rdfs:comment "Онтология описывает разделы математики, элементы математического знания и связи между ними."@ru,
     versionInfo "1.12"^^xsd:string,
     rdfs:comment "The ontology describes mathematical entities as well as mathematical theories, and relations between them."@en,
-    dc:contributor "Ilgiz Kayumov <ikayumov@gmail.com>"^^xsd:string,
+    dc:creator "Ilgiz Kayumov <ikayumov@gmail.com>"^^xsd:string,
     dc:title "OntoMath Pro"^^xsd:string,
     dc:creator "Olga Nevzorova <onevzoro@gmail.com>"^^xsd:string,
-    dc:contributor "Marjan Matvejchuk <marjan.matvejchuk@ksu.ru>"^^xsd:string,
-    dc:contributor "Elena Utkina <eutkina1@yandex.ru>"^^xsd:string,
-    dc:contributor "Pyotr Ivanshin <pivanshin@gmail.com>"^^xsd:string,
+    dc:creator "Marjan Matvejchuk <marjan.matvejchuk@ksu.ru>"^^xsd:string,
+    dc:creator "Elena Utkina <eutkina1@yandex.ru>"^^xsd:string,
+    dc:creator "Pyotr Ivanshin <pivanshin@gmail.com>"^^xsd:string,
     dc:creator "Nikita Zhiltsov <nikita.zhiltsov@gmail.com>"^^xsd:string,
     dc:creator "Evgeny Lipachev <elipachev@gmail.com>"^^xsd:string
 
