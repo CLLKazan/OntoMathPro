@@ -11,7 +11,7 @@ We use the [OWL 2 Manchester Notation](http://www.w3.org/TR/owl2-manchester-synt
 
 Current Version
 ---------------
-[1.12](https://github.com/CLLKazan/OntoMathPro/archive/1.12.zip)
+[1.12.1](https://github.com/CLLKazan/OntoMathPro/archive/1.12.1.zip)
 
 The latest version is also accessible via its URI: [http://cll.niimm.ksu.ru/ontologies/mathematics](http://cll.niimm.ksu.ru/ontologies/mathematics). 
 
