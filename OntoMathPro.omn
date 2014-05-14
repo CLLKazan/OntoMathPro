@@ -23,7 +23,7 @@ Annotations:
     rdfs:comment "Онтология описывает разделы математики, элементы математического знания и связи между ними."@ru,
     dc:creator "Ilgiz Kayumov <ikayumov@gmail.com>"^^xsd:string,
     rdfs:comment "The ontology describes mathematical entities as well as mathematical theories, and relations between them."@en,
-    versionInfo "1.12"^^xsd:string,
+    versionInfo "1.12.2"^^xsd:string,
     dc:title "OntoMath Pro"^^xsd:string,
     dc:creator "Olga Nevzorova <onevzoro@gmail.com>"^^xsd:string,
     dc:creator "Marjan Matvejchuk <marjan.matvejchuk@ksu.ru>"^^xsd:string,
@@ -1141,7 +1141,7 @@ Class: mathematics:E2143
 
     Annotations: 
         rdfs:label "элемент теории алгебры"@ru,
-        rdfs:label "Element theory of algebras"@en,
+        rdfs:label "Element of the theory of algebra"@en,
         rdfs:comment "http://en.wikipedia.org/wiki/Algebra"@en
     
     EquivalentTo: 
@@ -4966,6 +4966,7 @@ Class: mathematics:E1
 
     Annotations: 
         rdfs:comment "Верхний уровень иерархии разделов математики"@ru,
+        rdfs:label "Field of mathematics"@en,
         rdfs:label "раздел математики"@ru
     
     
@@ -12250,7 +12251,7 @@ Class: mathematics:E2388
     Annotations: 
         rdfs:comment "\"Математический объект (множество, функция и т.д.), так или иначе связанный с вычислимостью с помощью алгоритмов\""^^xsd:string,
         rdfs:label "элемент теории алгоритмов"@ru,
-        rdfs:label "Element theory of algorithm"@en
+        rdfs:label "Element of the theory of algorithms"@en
     
     EquivalentTo: 
         mathematics:P3 only mathematics:E20
@@ -24709,7 +24710,7 @@ Class: mathematics:E2688
 
     Annotations: 
         rdfs:label "элемент теории дифференциальных уравнений"@ru,
-        rdfs:label "Element theory of differential equations"@en,
+        rdfs:label "Element the theory of differential equations"@en,
         rdfs:comment "Элементы или разделы математического знания, которые можно отнести к вопросам, связанным с дифференциальными уравнениями"@ru
     
     SubClassOf: 
@@ -26818,7 +26819,8 @@ Class: mathematics:E34
 
     Annotations: 
         rdfs:label "элемент математического знания"@ru,
-        rdfs:comment "Верхний уровень иерархии объектов математического знания."@ru
+        rdfs:comment "Верхний уровень иерархии объектов математического знания."@ru,
+        rdfs:label "Mathematical knowledge object"@en
     
     
 Class: mathematics:E37
@@ -32840,6 +32842,7 @@ Class: mathematics:E2843
 Class: mathematics:E2844
 
     Annotations: 
+        rdfs:label "Element of the theory of mathematical analysis"@en,
         rdfs:comment "Элементы или разделы математического знания, которые можно отнести к вопросам, связанным с матанализом"@ru,
         rdfs:label "элемент теории математического анализа"@ru
     
@@ -40735,8 +40738,8 @@ Class: mathematics:E3140
 
     Annotations: 
         rdfs:comment "http://ru.wikipedia.org/wiki/%D0%92%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"^^xsd:string,
-        rdfs:label "элемент теории численного анализа"@ru,
-        rdfs:label "Element of the theory of numerical analyses"@en
+        rdfs:label "Element of the theory of numerical analysis"@en,
+        rdfs:label "элемент теории численного анализа"@ru
     
     EquivalentTo: 
         mathematics:P3 only mathematics:E33
