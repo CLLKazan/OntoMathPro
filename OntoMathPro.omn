@@ -117,7 +117,8 @@ ObjectProperty: mathematics:P5
         rdfs:label "смотри также"@ru
     
     Characteristics: 
-        Symmetric
+        Symmetric,
+        Transitive
     
     Domain: 
         mathematics:E34
