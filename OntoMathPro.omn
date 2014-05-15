@@ -18,12 +18,12 @@ Ontology: <http://cll.niimm.ksu.ru/ontologies/mathematics#>
 
 Annotations: 
     dc:creator "Anna Kayumova <annakayu@gmail.com>"^^xsd:string,
+    versionInfo "1.12.2"^^xsd:string,
     dc:creator "Valery Solovyev <maki.solovyev@mail.ru>"^^xsd:string,
     dc:creator "Alik Kirillovich <alik.kirillovich@gmail.com>"^^xsd:string,
     rdfs:comment "Онтология описывает разделы математики, элементы математического знания и связи между ними."@ru,
     dc:creator "Ilgiz Kayumov <ikayumov@gmail.com>"^^xsd:string,
     rdfs:comment "The ontology describes mathematical entities as well as mathematical theories, and relations between them."@en,
-    versionInfo "1.12.2"^^xsd:string,
     dc:title "OntoMath Pro"^^xsd:string,
     dc:creator "Olga Nevzorova <onevzoro@gmail.com>"^^xsd:string,
     dc:creator "Marjan Matvejchuk <marjan.matvejchuk@ksu.ru>"^^xsd:string,
@@ -8471,8 +8471,10 @@ Class: mathematics:E1226
 
     Annotations: 
         rdfs:label "Неравенство между средним арифметическим и средним геометрическим"@ru,
+        rdfs:label "Cauchy's inequality"@en,
         rdfs:label "Неравенство Коши"@ru,
-        rdfs:comment "http://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D1%80%D0%B0%D0%B2%D0%B5%D0%BD%D1%81%D1%82%D0%B2%D0%BE_%D0%BC%D0%B5%D0%B6%D0%B4%D1%83_%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D0%BC_%D0%B0%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC_%D0%B8_%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D0%BC_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC"@ru
+        rdfs:comment "http://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D1%80%D0%B0%D0%B2%D0%B5%D0%BD%D1%81%D1%82%D0%B2%D0%BE_%D0%BC%D0%B5%D0%B6%D0%B4%D1%83_%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D0%BC_%D0%B0%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC_%D0%B8_%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D0%BC_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC"@ru,
+        rdfs:label "Inequality of arithmetic and geometric means"@en
     
     SubClassOf: 
         mathematics:E1202,
