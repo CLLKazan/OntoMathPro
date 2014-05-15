@@ -62,8 +62,9 @@ Datatype: xsd:string
 ObjectProperty: mathematics:P2
 
     Annotations: 
-        rdfs:comment "Свойство указывает на то, что второй элемент используется при определении первого, но при этом свойства ISA (\"Подкласс - класс\") между ними нет."@ru,
-        rdfs:label "определяется_через"@ru
+        rdfs:label "определяется через"@ru,
+        rdfs:label "is defined by"@en,
+        rdfs:comment "Свойство указывает на то, что второй элемент используется при определении первого, но при этом свойства ISA (\"Подкласс - класс\") между ними нет."@ru
     
     SubPropertyOf: 
         topObjectProperty
@@ -82,7 +83,8 @@ ObjectProperty: mathematics:P3
 
     Annotations: 
         rdfs:comment "Свойство указывает на принадлежность данного элемента математического знания данному разделу математики."@ru,
-        rdfs:label "относится_к"@ru
+        rdfs:label "относится к"@ru,
+        rdfs:label "belongs to"@en
     
     SubPropertyOf: 
         topObjectProperty
@@ -100,7 +102,8 @@ ObjectProperty: mathematics:P3
 ObjectProperty: mathematics:P4
 
     Annotations: 
-        rdfs:label "содержит"@ru
+        rdfs:label "содержит"@ru,
+        rdfs:label "contains"@en
     
     InverseOf: 
         mathematics:P3
@@ -110,10 +113,12 @@ ObjectProperty: mathematics:P5
 
     Annotations: 
         rdfs:comment "Свойство устанавливает отношение между близкими терминами."@ru,
+        rdfs:label "see also"@en,
         rdfs:label "смотри также"@ru
     
     Characteristics: 
-        Symmetric
+        Symmetric,
+        Transitive
     
     Domain: 
         mathematics:E34
@@ -128,10 +133,37 @@ ObjectProperty: topObjectProperty
 ObjectProperty: mathematics:P1
 
     Annotations: 
+        rdfs:label "defines"@en,
         rdfs:label "определяет"@ru
     
     InverseOf: 
         mathematics:P2
+    
+    
+ObjectProperty: mathematics:P7
+
+    Annotations: 
+        rdfs:label "is solved by"@en,
+        rdfs:label "решается с помощью"@ru
+    
+    Domain: 
+        mathematics:E339
+    
+    Range: 
+        mathematics:E449
+    
+    InverseOf: 
+        mathematics:P6
+    
+    
+ObjectProperty: mathematics:P6
+
+    Annotations: 
+        rdfs:label "solves"@en,
+        rdfs:label "решает"@ru
+    
+    InverseOf: 
+        mathematics:P7
     
     
 Class: mathematics:E1801
@@ -3689,7 +3721,7 @@ Class: mathematics:E499
 
     Annotations: 
         rdfs:label "метод численного анализа"@ru,
-        rdfs:label "Method of numerical analyses"@en,
+        rdfs:label "Method of numerical analysis"@en,
         rdfs:comment "Разностный метод численного решения обыкновенных дифференциальных уравнений.
 См. Самарский А.А., Гулин А.В. Численные методы. - М.:Наука, 1989. - С.231.
 "@ru,
@@ -15008,7 +15040,7 @@ Class: mathematics:E1922
     Annotations: 
         rdfs:label "уравнение численного анализа"@ru,
         rdfs:comment "Уравнения, решаемые методами численного анализа"^^xsd:string,
-        rdfs:label "Equation of numerical analyses"@en
+        rdfs:label "Equation of numerical analysis"@en
     
     SubClassOf: 
         mathematics:E1891,
@@ -15028,8 +15060,8 @@ Class: mathematics:E1921
 Class: mathematics:E2406
 
     Annotations: 
+        rdfs:label "Element of probability theory"@en,
         rdfs:label "элемент теории вероятностей и математической статистики"@ru,
-        rdfs:label "Element of theory of chances and mathematical statistics"@en,
         rdfs:comment "Это объект, имеющий отношение к теории вероятностей и математической статистике"@ru
     
     EquivalentTo: 
@@ -16116,7 +16148,7 @@ Class: mathematics:E1973
     Annotations: 
         rdfs:label "условие задачи численного анализа"@ru,
         rdfs:comment "Условия, возникающие при решении задач методами численного анализа"^^xsd:string,
-        rdfs:label "Problem situation of numerical analyses"@en
+        rdfs:label "Problem situation of numerical analysis"@en
     
     SubClassOf: 
         mathematics:E1937,
@@ -23902,8 +23934,8 @@ Class: mathematics:E940
 Class: mathematics:E3253
 
     Annotations: 
-        rdfs:label "Demonstration"@en,
         rdfs:label "доказательство"@ru,
+        rdfs:label "Proof"@en,
         rdfs:comment "http://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE"@ru
     
     EquivalentTo: 
@@ -24711,8 +24743,8 @@ Class: mathematics:E2686
 Class: mathematics:E2688
 
     Annotations: 
+        rdfs:label "Element of differential equations"@en,
         rdfs:label "элемент теории дифференциальных уравнений"@ru,
-        rdfs:label "Element the theory of differential equations"@en,
         rdfs:comment "Элементы или разделы математического знания, которые можно отнести к вопросам, связанным с дифференциальными уравнениями"@ru
     
     SubClassOf: 
@@ -25894,8 +25926,8 @@ Class: mathematics:E847
 
     Annotations: 
         rdfs:label "множество"@ru,
-        rdfs:comment "en.wikipedia.org/wiki/Mathematical_variety"@en,
-        rdfs:label "Collection"@en
+        rdfs:comment "http://en.wikipedia.org/wiki/Set_(mathematics)"@en,
+        rdfs:label "Set"@en
     
     SubClassOf: 
         mathematics:E34
@@ -29384,8 +29416,8 @@ Class: mathematics:E3375
     Annotations: 
         rdfs:label "Характеристики численного анализа"@ru,
         rdfs:label "Числовые характеристики"@ru,
-        rdfs:label "Characteristic of numerical analyses"@en,
-        rdfs:comment "Самарский А.А., Гулин А.В. Численные методы. - М.: Наука, 1989."@ru
+        rdfs:comment "Самарский А.А., Гулин А.В. Численные методы. - М.: Наука, 1989."@ru,
+        rdfs:label "Characteristic of numerical analysis"@en
     
     SubClassOf: 
         mathematics:E3140
@@ -32844,8 +32876,8 @@ Class: mathematics:E2843
 Class: mathematics:E2844
 
     Annotations: 
-        rdfs:label "Element of the theory of mathematical analysis"@en,
         rdfs:comment "Элементы или разделы математического знания, которые можно отнести к вопросам, связанным с матанализом"@ru,
+        rdfs:label "Element of mathematical analysis"@en,
         rdfs:label "элемент теории математического анализа"@ru
     
     EquivalentTo: 
@@ -38833,7 +38865,7 @@ Class: mathematics:E2053
 
     Annotations: 
         rdfs:comment "См. Дэннис Дж., мл., Шнабель Р. Численные методы безусловной оптимизации и решения нелинейных уравнений. - М.: Мир, 1988. - С.290."@ru,
-        rdfs:label "Sparce secant update"@en,
+        rdfs:label "Sparse secant update"@en,
         rdfs:label "Разреженная формула секущих"@ru
     
     SubClassOf: 
@@ -40346,7 +40378,7 @@ Class: mathematics:E2026
 
     Annotations: 
         rdfs:comment "Формулы, используемые в численном анализе"^^xsd:string,
-        rdfs:label "Formula of theory of numerical analyses"@en,
+        rdfs:label "Formula of theory of numerical analysis"@en,
         rdfs:label "формула теории численного анализа"@ru
     
     EquivalentTo: 
@@ -40740,7 +40772,7 @@ Class: mathematics:E3140
 
     Annotations: 
         rdfs:comment "http://ru.wikipedia.org/wiki/%D0%92%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"^^xsd:string,
-        rdfs:label "Element of the theory of numerical analysis"@en,
+        rdfs:label "Element of numerical analysis"@en,
         rdfs:label "элемент теории численного анализа"@ru
     
     EquivalentTo: 
