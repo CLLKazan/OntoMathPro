@@ -140,6 +140,32 @@ ObjectProperty: mathematics:P1
         mathematics:P2
     
     
+ObjectProperty: mathematics:P7
+
+    Annotations: 
+        rdfs:label "is solved by"@en,
+        rdfs:label "решается с помощью"@ru
+    
+    Domain: 
+        mathematics:E339
+    
+    Range: 
+        mathematics:E449
+    
+    InverseOf: 
+        mathematics:P6
+    
+    
+ObjectProperty: mathematics:P6
+
+    Annotations: 
+        rdfs:label "solves"@en,
+        rdfs:label "решает"@ru
+    
+    InverseOf: 
+        mathematics:P7
+    
+    
 Class: mathematics:E1801
 
     Annotations: 
