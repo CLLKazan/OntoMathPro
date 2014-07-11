@@ -3,6 +3,10 @@ OntoMathPro: A Hub for Math LOD
 
 The OntoMathPro ontology has been developed by a [research group](https://github.com/CLLKazan) from Kazan Federal University (Russia). The ontology is geared to be the hub for math knowledge in the Web of Data. We shared the sources with the Semantic Web community to engage our colleagues from elsewhere in its further development. We are going to create an ecosystem of datasets and mashups around the ontology.
 
+Ontology URI
+------------
+[http://ontomathpro.org/ontology](http://ontomathpro.org/ontology)
+
 Official project page
 ---------------------
 [http://ontomathpro.org](http://ontomathpro.org)
@@ -13,7 +17,7 @@ We use a human readable format [OWL 2 Manchester Notation](http://www.w3.org/TR/
 
 Current Version
 ---------------
-[1.12.4](https://github.com/CLLKazan/OntoMathPro/archive/1.12.4.zip)
+[1.12.5](https://github.com/CLLKazan/OntoMathPro/archive/1.12.5.zip)
  
 
 Mailing list
@@ -36,6 +40,12 @@ Related Datasets
 Related Mashups
 ----------------
 [Ontology-based math formula search](https://github.com/CLLKazan/MathSearch)
+
+External Links
+--------------
+* [A mapping to DBpedia](https://github.com/CLLKazan/OntoMathPro/blob/master/external.links.dbpedia.nt)
+* [A mapping to ScienceWISE](https://github.com/CLLKazan/OntoMathPro/blob/master/external.links.sciencewise.nt)
+
 
 
 License
