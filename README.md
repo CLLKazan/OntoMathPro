@@ -31,7 +31,7 @@ Publications
 ----------------
 [1] O. Nevzorova, N. Zhiltsov, D. Zaikin, O. Zhibrik, A. Kirillovich, V. Nevzorov, E. Birialtsev. Bringing Math to LOD: A Semantic Publishing Platform Prototype for Scientific Collections in Mathematics // 12th International Semantic Web Conference, Sydney, NSW, Australia, October 21-25, 2013, Proceedings, Part I. - Vol. 8218. - Springer Berlin Heidelberg. - 2013. pp 379-394. [ [Google Scholar] ](http://scholar.google.ru/scholar?cluster=1224964943617679554&hl=ru&as_sdt=0,5)
 
-[2] O. Nevzorova, N. Zhiltsov, A. Kirillovich, E. Lipachev. OntoMathPro Ontology: A Linked Data Hub for Mathematics // Proceedings of the 5th International Conference on Knowledge Engineering and the Semantic Web. - 2014.
+[2] O. Nevzorova, N. Zhiltsov, A. Kirillovich, E. Lipachev. OntoMathPro Ontology: A Linked Data Hub for Mathematics // Proceedings of the 5th International Conference on Knowledge Engineering and the Semantic Web. - 2014. [ [ArXiv] ](http://arxiv.org/abs/1407.4833)
 
 Related Datasets
 ----------------
