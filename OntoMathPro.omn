@@ -12790,9 +12790,9 @@ Class: mathematics:E1613
 Class: mathematics:E2390
 
     Annotations: 
-        rdfs:label "By an algorithm defined set"@en,
-        rdfs:label "алгоритмически определяемые множества"@ru,
-        rdfs:comment "Множества, в определении которых участвуют алгоритмические процессы"^^xsd:string
+        rdfs:label "Algorithmically defined set"@en,
+        rdfs:label "Алгоритмически определяемое множество"@ru,
+        rdfs:comment "Множество, в определении которого участвуют алгоритмические процессы"^^xsd:string
     
     SubClassOf: 
         mathematics:E2388
