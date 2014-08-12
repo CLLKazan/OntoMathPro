@@ -1,7 +1,11 @@
-OntoMathPro: A Hub for Math LOD
+OntoMathPro: A Hub for Math Linking Open Data (LOD)
 ===============================
 
-The OntoMathPro ontology has been developed by a [research group](https://github.com/CLLKazan) from Kazan Federal University (Russia). The ontology is geared to be the hub for math knowledge in the Web of Data. We shared the sources with the Semantic Web community to engage our colleagues from elsewhere in its further development. We are going to create an ecosystem of datasets and mashups around the ontology.
+The OntoMathPro ontology has been developed by a [research group](https://github.com/CLLKazan) from Kazan Federal University (Russia). This ontology is bilingual (English/Russian) and is geared to be the hub for math knowledge in the Web of Data. We shared the sources with the Semantic Web community to engage our colleagues from elsewhere in its further development. We are going to create an ecosystem of datasets and mashups around the ontology.
+
+Current Version
+---------------
+[1.12.6](https://github.com/CLLKazan/OntoMathPro/archive/1.12.6.zip)
 
 Ontology URI
 ------------
@@ -14,10 +18,6 @@ Official project page
 Syntax
 ---------------
 We use a human readable format [OWL 2 Manchester Notation](http://www.w3.org/TR/owl2-manchester-syntax/).
-
-Current Version
----------------
-[1.12.5](https://github.com/CLLKazan/OntoMathPro/archive/1.12.5.zip)
  
 
 Mailing list
@@ -33,6 +33,8 @@ Publications
 
 [2] O. Nevzorova, N. Zhiltsov, A. Kirillovich, E. Lipachev. OntoMathPro Ontology: A Linked Data Hub for Mathematics // Proceedings of the 5th International Conference on Knowledge Engineering and the Semantic Web. - 2014. [ [ArXiv] ](http://arxiv.org/abs/1407.4833)
 
+If you leverage the ontology in your research, please cite [2].
+
 Related Datasets
 ----------------
 'Proceedings of Higher Education Institutions: Mathematics' (PHEIM) dataset is available via [our SPARQL endpoint](http://cll.niimm.ksu.ru:8890/sparql). The dataset IRI is *http://cll.niimm.ksu.ru/pheim*.
@@ -41,8 +43,8 @@ Related Mashups
 ----------------
 [Ontology-based math formula search](https://github.com/CLLKazan/MathSearch)
 
-External Links
---------------
+Links to External LOD Datasets
+------------------------------
 * [A mapping to DBpedia](https://github.com/CLLKazan/OntoMathPro/blob/master/external.links.dbpedia.nt)
 * [A mapping to ScienceWISE](https://github.com/CLLKazan/OntoMathPro/blob/master/external.links.sciencewise.nt)
 
