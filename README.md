@@ -37,7 +37,7 @@ If you leverage the ontology in your research, please cite [2].
 
 Related Datasets
 ----------------
-'Proceedings of Higher Education Institutions: Mathematics' (PHEIM) dataset is available via [our SPARQL endpoint](/http://lobachevskii-dml.ru:8890/sparql).
+'Proceedings of Higher Education Institutions: Mathematics' (PHEIM) dataset is available via [our SPARQL endpoint](http://lobachevskii-dml.ru:8890/sparql).
 
 Related Mashups
 ----------------
